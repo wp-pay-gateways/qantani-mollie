@@ -14,6 +14,7 @@ class Pronamic_WP_Pay_Gateways_Qantani_Mollie_Integration extends Pronamic_WP_Pa
 		$this->id            = 'qantani-mollie';
 		$this->name          = __( 'Qantani (new platform)', 'pronamic_ideal' );
 		$this->url           = 'https://www.qantani.com/';
+		$this->product_url   = 'https://www.qantani.com/tarieven/';
 		$this->dashboard_url = 'https://www.qantani.eu/';
 		$this->provider      = 'qantani';
 	}
